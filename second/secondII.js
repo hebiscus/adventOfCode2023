@@ -1,6 +1,6 @@
 import fs from "fs";
 const readFile = (path) => fs.readFileSync(path, { encoding: "utf8" });
-const input = readFile("./input2.txt").split("\n");
+const input = readFile("./second/input.txt").split("\n");
 
 const allPowers = [];
 
